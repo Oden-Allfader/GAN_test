@@ -6,7 +6,7 @@ import Fritz
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     var previewView = VideoPreviewView()
-    let styleModel = FritzVisionStyleModel.starryNight
+    let styleModel = FritzVisionStyleModel(model: style_name_025())
  
     private lazy var captureSession: AVCaptureSession = {
         let session = AVCaptureSession()

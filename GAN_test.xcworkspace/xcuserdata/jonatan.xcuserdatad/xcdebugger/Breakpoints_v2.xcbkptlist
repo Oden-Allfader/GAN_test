@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GAN_test/AppDelegate.swift"
-            timestampString = "572957620.940436"
+            timestampString = "572962670.377723"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "application(_:didFinishLaunchingWithOptions:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,91 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GAN_test/AppDelegate.swift"
-            timestampString = "572957620.94081"
+            timestampString = "572962670.3778059"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "application(_:willFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GAN_test/AppDelegate.swift"
-            timestampString = "572957620.941065"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7"
-            endingLineNumber = "7"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GAN_test.AppDelegate.window.getter : Swift.Optional&lt;__C.UIWindow&gt;"
-                  moduleName = "GAN_test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jonatan/Documents/Practice/GAN_test/GAN_test/AppDelegate.swift"
-                  timestampString = "572957621.232779"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "108">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GAN_test.AppDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
-                  moduleName = "GAN_test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jonatan/Documents/Practice/GAN_test/GAN_test/AppDelegate.swift"
-                  timestampString = "572957621.234901"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "132">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GAN_test.AppDelegate.init() -&gt; GAN_test.AppDelegate"
-                  moduleName = "GAN_test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jonatan/Documents/Practice/GAN_test/GAN_test/AppDelegate.swift"
-                  timestampString = "572957621.236854"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GAN_test/ViewController.swift"
-            timestampString = "572957620.941308"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

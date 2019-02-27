@@ -35,12 +35,38 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Apr-7D-hUQ"/>
+                        <segue destination="pWh-C1-TMO" kind="relationship" relationship="rootViewController" id="fFs-Gt-pdN"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MLA-4L-TwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-374" y="27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bOb-WS-9rK">
+            <objects>
+                <viewController id="pWh-C1-TMO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LKF-1J-WRJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhh-WV-RdQ">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="EL7-nz-8Ri"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FYs-u2-0QE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mV0-WI-hhg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aaP-aJ-4aG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="27"/>
         </scene>
     </scenes>
 </document>
