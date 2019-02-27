@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131A499DD5E806BCED5FC7F2 /* Pods_GAN_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6E9B072215A2262D4F3714 /* Pods_GAN_testUITests.framework */; };
+		3EF69C2E08772B23C0165BEE /* Pods_GAN_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9FF4C6B92F876B801BCD65 /* Pods_GAN_testTests.framework */; };
 		8E43334422267F52007879BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43334322267F52007879BC /* AppDelegate.swift */; };
 		8E43334622267F53007879BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43334522267F53007879BC /* ViewController.swift */; };
 		8E43334922267F53007879BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E43334722267F53007879BC /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		8E43334E22267F54007879BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E43334C22267F54007879BC /* LaunchScreen.storyboard */; };
 		8E43335922267F55007879BC /* GAN_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43335822267F55007879BC /* GAN_testTests.swift */; };
 		8E43336422267F55007879BC /* GAN_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43336322267F55007879BC /* GAN_testUITests.swift */; };
+		8E433372222681A6007879BC /* Fritz-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E433371222681A6007879BC /* Fritz-Info.plist */; };
+		8E433381222682C9007879BC /* OpenGLPixelBufferView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43337C222682C9007879BC /* OpenGLPixelBufferView.m */; };
+		8E433382222682C9007879BC /* ShaderUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E43337D222682C9007879BC /* ShaderUtilities.c */; };
+		8E43338422268337007879BC /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43338322268337007879BC /* VideoPreviewView.swift */; };
+		8E4333862226852D007879BC /* style_name_025.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E4333852226852D007879BC /* style_name_025.mlmodel */; };
+		8E43338A22268804007879BC /* style_name_025+Fritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43338922268804007879BC /* style_name_025+Fritz.swift */; };
+		91418199F42EC663CBA6A05C /* Pods_GAN_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38299048B3E07A68E958E500 /* Pods_GAN_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38299048B3E07A68E958E500 /* Pods_GAN_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAN_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C1A80BDFB8446BFB75A6E1 /* Pods-GAN_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_testTests.release.xcconfig"; path = "Target Support Files/Pods-GAN_testTests/Pods-GAN_testTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B5C814D03B2950264DA9CF1 /* Pods-GAN_testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_testUITests.release.xcconfig"; path = "Target Support Files/Pods-GAN_testUITests/Pods-GAN_testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		632DE06DB465405687801D49 /* Pods-GAN_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_test.release.xcconfig"; path = "Target Support Files/Pods-GAN_test/Pods-GAN_test.release.xcconfig"; sourceTree = "<group>"; };
 		8E43334022267F52007879BC /* GAN_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAN_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E43334322267F52007879BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E43334522267F53007879BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,20 @@
 		8E43335F22267F55007879BC /* GAN_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAN_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E43336322267F55007879BC /* GAN_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAN_testUITests.swift; sourceTree = "<group>"; };
 		8E43336522267F55007879BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E433371222681A6007879BC /* Fritz-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fritz-Info.plist"; sourceTree = "<group>"; };
+		8E43337C222682C9007879BC /* OpenGLPixelBufferView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLPixelBufferView.m; sourceTree = "<group>"; };
+		8E43337D222682C9007879BC /* ShaderUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ShaderUtilities.c; sourceTree = "<group>"; };
+		8E43337E222682C9007879BC /* OpenGLPixelBufferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLPixelBufferView.h; sourceTree = "<group>"; };
+		8E43337F222682C9007879BC /* Heartbeat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heartbeat-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E433380222682C9007879BC /* ShaderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderUtilities.h; sourceTree = "<group>"; };
+		8E43338322268337007879BC /* VideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
+		8E4333852226852D007879BC /* style_name_025.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style_name_025.mlmodel; sourceTree = "<group>"; };
+		8E43338922268804007879BC /* style_name_025+Fritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "style_name_025+Fritz.swift"; sourceTree = "<group>"; };
+		9CB7C0906E48B23F9A15BE9B /* Pods-GAN_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_testTests.debug.xcconfig"; path = "Target Support Files/Pods-GAN_testTests/Pods-GAN_testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC6E9B072215A2262D4F3714 /* Pods_GAN_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAN_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA38811D41352B24C6072B9 /* Pods-GAN_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_testUITests.debug.xcconfig"; path = "Target Support Files/Pods-GAN_testUITests/Pods-GAN_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4136E7C2F3A3F37CEAD0BF3 /* Pods-GAN_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_test.debug.xcconfig"; path = "Target Support Files/Pods-GAN_test/Pods-GAN_test.debug.xcconfig"; sourceTree = "<group>"; };
+		FC9FF4C6B92F876B801BCD65 /* Pods_GAN_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAN_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91418199F42EC663CBA6A05C /* Pods_GAN_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF69C2E08772B23C0165BEE /* Pods_GAN_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131A499DD5E806BCED5FC7F2 /* Pods_GAN_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,8 @@
 				8E43335722267F55007879BC /* GAN_testTests */,
 				8E43336222267F55007879BC /* GAN_testUITests */,
 				8E43334122267F52007879BC /* Products */,
+				D3E2AD5618E94CDF046255FA /* Pods */,
+				E044677FD4DFA46099F59D3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +130,16 @@
 			isa = PBXGroup;
 			children = (
 				8E43334322267F52007879BC /* AppDelegate.swift */,
+				8E43337B222682C9007879BC /* Apple OpenGL Buffer View */,
 				8E43334522267F53007879BC /* ViewController.swift */,
+				8E4333852226852D007879BC /* style_name_025.mlmodel */,
 				8E43334722267F53007879BC /* Main.storyboard */,
 				8E43334A22267F54007879BC /* Assets.xcassets */,
 				8E43334C22267F54007879BC /* LaunchScreen.storyboard */,
 				8E43334F22267F54007879BC /* Info.plist */,
+				8E433371222681A6007879BC /* Fritz-Info.plist */,
+				8E43338322268337007879BC /* VideoPreviewView.swift */,
+				8E43338922268804007879BC /* style_name_025+Fritz.swift */,
 			);
 			path = GAN_test;
 			sourceTree = "<group>";
@@ -125,6 +162,41 @@
 			path = GAN_testUITests;
 			sourceTree = "<group>";
 		};
+		8E43337B222682C9007879BC /* Apple OpenGL Buffer View */ = {
+			isa = PBXGroup;
+			children = (
+				8E43337C222682C9007879BC /* OpenGLPixelBufferView.m */,
+				8E43337D222682C9007879BC /* ShaderUtilities.c */,
+				8E43337E222682C9007879BC /* OpenGLPixelBufferView.h */,
+				8E43337F222682C9007879BC /* Heartbeat-Bridging-Header.h */,
+				8E433380222682C9007879BC /* ShaderUtilities.h */,
+			);
+			path = "Apple OpenGL Buffer View";
+			sourceTree = "<group>";
+		};
+		D3E2AD5618E94CDF046255FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4136E7C2F3A3F37CEAD0BF3 /* Pods-GAN_test.debug.xcconfig */,
+				632DE06DB465405687801D49 /* Pods-GAN_test.release.xcconfig */,
+				9CB7C0906E48B23F9A15BE9B /* Pods-GAN_testTests.debug.xcconfig */,
+				45C1A80BDFB8446BFB75A6E1 /* Pods-GAN_testTests.release.xcconfig */,
+				BFA38811D41352B24C6072B9 /* Pods-GAN_testUITests.debug.xcconfig */,
+				4B5C814D03B2950264DA9CF1 /* Pods-GAN_testUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E044677FD4DFA46099F59D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38299048B3E07A68E958E500 /* Pods_GAN_test.framework */,
+				FC9FF4C6B92F876B801BCD65 /* Pods_GAN_testTests.framework */,
+				AC6E9B072215A2262D4F3714 /* Pods_GAN_testUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E43336822267F55007879BC /* Build configuration list for PBXNativeTarget "GAN_test" */;
 			buildPhases = (
+				7044A51CAAC9B2B6AB4CDC01 /* [CP] Check Pods Manifest.lock */,
 				8E43333C22267F52007879BC /* Sources */,
 				8E43333D22267F52007879BC /* Frameworks */,
 				8E43333E22267F52007879BC /* Resources */,
+				88391C5B7EA1BE6781A0C8B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E43336B22267F55007879BC /* Build configuration list for PBXNativeTarget "GAN_testTests" */;
 			buildPhases = (
+				7A9F6561D748566DBB93A5A3 /* [CP] Check Pods Manifest.lock */,
 				8E43335022267F55007879BC /* Sources */,
 				8E43335122267F55007879BC /* Frameworks */,
 				8E43335222267F55007879BC /* Resources */,
@@ -167,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E43336E22267F55007879BC /* Build configuration list for PBXNativeTarget "GAN_testUITests" */;
 			buildPhases = (
+				A97F754F379E23E9BEC82F3D /* [CP] Check Pods Manifest.lock */,
 				8E43335B22267F55007879BC /* Sources */,
 				8E43335C22267F55007879BC /* Frameworks */,
 				8E43335D22267F55007879BC /* Resources */,
@@ -231,6 +307,7 @@
 			files = (
 				8E43334E22267F54007879BC /* LaunchScreen.storyboard in Resources */,
 				8E43334B22267F54007879BC /* Assets.xcassets in Resources */,
+				8E433372222681A6007879BC /* Fritz-Info.plist in Resources */,
 				8E43334922267F53007879BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +328,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7044A51CAAC9B2B6AB4CDC01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GAN_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9F6561D748566DBB93A5A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GAN_testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88391C5B7EA1BE6781A0C8B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GAN_test/Pods-GAN_test-frameworks.sh",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzCore.framework",
+				"${PODS_ROOT}/Fritz/Frameworks/CoreMLHelpers.framework",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzManagedModel.framework",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzVision.framework",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzVisionStyleModel.framework",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzVisionStyleModelPaintings.framework",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzVisionStyleModelBase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreMLHelpers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzManagedModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVision.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionStyleModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionStyleModelPaintings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionStyleModelBase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GAN_test/Pods-GAN_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A97F754F379E23E9BEC82F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GAN_testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E43333C22267F52007879BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E433381222682C9007879BC /* OpenGLPixelBufferView.m in Sources */,
+				8E433382222682C9007879BC /* ShaderUtilities.c in Sources */,
+				8E43338A22268804007879BC /* style_name_025+Fritz.swift in Sources */,
 				8E43334622267F53007879BC /* ViewController.swift in Sources */,
+				8E4333862226852D007879BC /* style_name_025.mlmodel in Sources */,
 				8E43334422267F52007879BC /* AppDelegate.swift in Sources */,
+				8E43338422268337007879BC /* VideoPreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,17 +615,20 @@
 		};
 		8E43336922267F55007879BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4136E7C2F3A3F37CEAD0BF3 /* Pods-GAN_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XT7RQW894;
 				INFOPLIST_FILE = GAN_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "J.GAN-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GAN_test/Apple OpenGL Buffer View/Heartbeat-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +636,20 @@
 		};
 		8E43336A22267F55007879BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632DE06DB465405687801D49 /* Pods-GAN_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XT7RQW894;
 				INFOPLIST_FILE = GAN_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "J.GAN-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GAN_test/Apple OpenGL Buffer View/Heartbeat-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +657,7 @@
 		};
 		8E43336C22267F55007879BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB7C0906E48B23F9A15BE9B /* Pods-GAN_testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +679,7 @@
 		};
 		8E43336D22267F55007879BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C1A80BDFB8446BFB75A6E1 /* Pods-GAN_testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +701,7 @@
 		};
 		8E43336F22267F55007879BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA38811D41352B24C6072B9 /* Pods-GAN_testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +722,7 @@
 		};
 		8E43337022267F55007879BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5C814D03B2950264DA9CF1 /* Pods-GAN_testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

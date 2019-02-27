@@ -1,0 +1,1 @@
+../../../Fritz/CoreOnly/Sources/Fritz.h

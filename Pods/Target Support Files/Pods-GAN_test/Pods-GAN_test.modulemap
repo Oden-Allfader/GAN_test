@@ -1,0 +1,6 @@
+framework module Pods_GAN_test {
+  umbrella header "Pods-GAN_test-umbrella.h"
+
+  export *
+  module * { export * }
+}
