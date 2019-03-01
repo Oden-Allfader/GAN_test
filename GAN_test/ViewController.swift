@@ -6,8 +6,13 @@ import Fritz
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     var previewView = VideoPreviewView()
-    let styleModel = FritzVisionStyleModel(model: style_name_025())
- 
+    //let styleModel = FritzVisionStyleModel(model: style_name_025()) //Trained on a pattern
+    //let styleModel = FritzVisionStyleModel(model: white_style_025()) // Extremely bright and low ress
+    let styleModel = FritzVisionStyleModel(model: white_025()) //Best result
+    //let styleModel = FritzVisionStyleModel(model: white_style_025_large()) //Tries utilizing larger image size, does not work
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask { return .portrait }
+
     private lazy var captureSession: AVCaptureSession = {
         let session = AVCaptureSession()
         

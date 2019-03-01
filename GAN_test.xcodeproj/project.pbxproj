@@ -22,6 +22,12 @@
 		8E43338422268337007879BC /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43338322268337007879BC /* VideoPreviewView.swift */; };
 		8E4333862226852D007879BC /* style_name_025.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E4333852226852D007879BC /* style_name_025.mlmodel */; };
 		8E43338A22268804007879BC /* style_name_025+Fritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43338922268804007879BC /* style_name_025+Fritz.swift */; };
+		8E43338E2227CF85007879BC /* white_style_025.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E43338D2227CF85007879BC /* white_style_025.mlmodel */; };
+		8E4333902227CFB0007879BC /* white_style_025+Fritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43338F2227CFB0007879BC /* white_style_025+Fritz.swift */; };
+		8E4333922227D0A7007879BC /* white_style_025_large+Fritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4333912227D0A7007879BC /* white_style_025_large+Fritz.swift */; };
+		8E4333942227D0C9007879BC /* white_style_025_large.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E4333932227D0C8007879BC /* white_style_025_large.mlmodel */; };
+		8E433396222839BA007879BC /* white_025+Fritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E433395222839BA007879BC /* white_025+Fritz.swift */; };
+		8E433398222839DF007879BC /* white_025.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E433397222839DF007879BC /* white_025.mlmodel */; };
 		91418199F42EC663CBA6A05C /* Pods_GAN_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38299048B3E07A68E958E500 /* Pods_GAN_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +75,12 @@
 		8E43338322268337007879BC /* VideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
 		8E4333852226852D007879BC /* style_name_025.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style_name_025.mlmodel; sourceTree = "<group>"; };
 		8E43338922268804007879BC /* style_name_025+Fritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "style_name_025+Fritz.swift"; sourceTree = "<group>"; };
+		8E43338D2227CF85007879BC /* white_style_025.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = white_style_025.mlmodel; sourceTree = "<group>"; };
+		8E43338F2227CFB0007879BC /* white_style_025+Fritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "white_style_025+Fritz.swift"; sourceTree = "<group>"; };
+		8E4333912227D0A7007879BC /* white_style_025_large+Fritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "white_style_025_large+Fritz.swift"; sourceTree = "<group>"; };
+		8E4333932227D0C8007879BC /* white_style_025_large.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = white_style_025_large.mlmodel; sourceTree = "<group>"; };
+		8E433395222839BA007879BC /* white_025+Fritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "white_025+Fritz.swift"; sourceTree = "<group>"; };
+		8E433397222839DF007879BC /* white_025.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = white_025.mlmodel; sourceTree = "<group>"; };
 		9CB7C0906E48B23F9A15BE9B /* Pods-GAN_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_testTests.debug.xcconfig"; path = "Target Support Files/Pods-GAN_testTests/Pods-GAN_testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC6E9B072215A2262D4F3714 /* Pods_GAN_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAN_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA38811D41352B24C6072B9 /* Pods-GAN_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAN_testUITests.debug.xcconfig"; path = "Target Support Files/Pods-GAN_testUITests/Pods-GAN_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +145,9 @@
 				8E43337B222682C9007879BC /* Apple OpenGL Buffer View */,
 				8E43334522267F53007879BC /* ViewController.swift */,
 				8E4333852226852D007879BC /* style_name_025.mlmodel */,
+				8E43338D2227CF85007879BC /* white_style_025.mlmodel */,
+				8E433397222839DF007879BC /* white_025.mlmodel */,
+				8E4333932227D0C8007879BC /* white_style_025_large.mlmodel */,
 				8E43334722267F53007879BC /* Main.storyboard */,
 				8E43334A22267F54007879BC /* Assets.xcassets */,
 				8E43334C22267F54007879BC /* LaunchScreen.storyboard */,
@@ -140,6 +155,9 @@
 				8E433371222681A6007879BC /* Fritz-Info.plist */,
 				8E43338322268337007879BC /* VideoPreviewView.swift */,
 				8E43338922268804007879BC /* style_name_025+Fritz.swift */,
+				8E43338F2227CFB0007879BC /* white_style_025+Fritz.swift */,
+				8E4333912227D0A7007879BC /* white_style_025_large+Fritz.swift */,
+				8E433395222839BA007879BC /* white_025+Fritz.swift */,
 			);
 			path = GAN_test;
 			sourceTree = "<group>";
@@ -436,12 +454,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4333902227CFB0007879BC /* white_style_025+Fritz.swift in Sources */,
 				8E433381222682C9007879BC /* OpenGLPixelBufferView.m in Sources */,
 				8E433382222682C9007879BC /* ShaderUtilities.c in Sources */,
 				8E43338A22268804007879BC /* style_name_025+Fritz.swift in Sources */,
 				8E43334622267F53007879BC /* ViewController.swift in Sources */,
+				8E4333922227D0A7007879BC /* white_style_025_large+Fritz.swift in Sources */,
 				8E4333862226852D007879BC /* style_name_025.mlmodel in Sources */,
 				8E43334422267F52007879BC /* AppDelegate.swift in Sources */,
+				8E43338E2227CF85007879BC /* white_style_025.mlmodel in Sources */,
+				8E433396222839BA007879BC /* white_025+Fritz.swift in Sources */,
+				8E4333942227D0C9007879BC /* white_style_025_large.mlmodel in Sources */,
+				8E433398222839DF007879BC /* white_025.mlmodel in Sources */,
 				8E43338422268337007879BC /* VideoPreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
